@@ -1,0 +1,36 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+div{
+    background-image: url('../img/lemon-pie.png');
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    height: 400px;
+    background-position:right bottom;
+    background-size: cover;
+    position: relative;
+}
+image{
+    width:max-content;
+}
+ul{
+    list-style-type: none;
+    padding-left: 0;
+    
+}
+
+h1{
+    position: absolute;
+    color: white;
+    bottom: 50px;    
+    font-family: 'Roboto400', sans-serif;
+} 
+header p{
+    position: absolute;
+    color: white;
+    bottom: 5px;    
+}
+p, ul{
+    font-family: 'Roboto', sans-serif;
+}

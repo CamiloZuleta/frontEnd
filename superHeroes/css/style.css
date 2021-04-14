@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+
+}
+.discounts-div{
+    width: 100%;
+    height: 25px;
+}
+
+.descounts{
+    background-color: #1CD1B0;
+    font-size: 24px;
+    padding: 4px 0px 1px 4% ;
+}
+h2{
+    text-transform: uppercase;
+    font-weight: 550;
+    text-align: center;
+    padding-bottom: 3%;
+    font-size: 30px;
+}
+img{
+    border-radius: 50%;
+    width: 12.5%;    
+    height: auto;
+    position:absolute;
+    left: 44%;
+}
+#batman{
+    top:50%
+}
+#wonder{
+    top: 155%
+}
+#super{
+    bottom: -190%
+}
+.img-1{
+    background-image: url("../img/bg-batman.jpg");
+}
+.img-2{
+    background-image: url('../img/bg-wonderw.jpg');
+}
+.img-3{
+    background-image: url('../img/bg-superman.jpg');
+}
+.img{
+    height: 250px;
+    width: 32%;
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    margin-bottom: 0%;
+}
+header{
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+header>h1{
+    background-color: #00669F;
+    color: white;
+    font-weight: lighter;
+    padding-left: 4%;
+    height: 70px;
+    padding-top: 1%;
+    position: sticky;
+    top: 0;
+    box-sizing: border-box;
+    font-size: 35px;
+}
+.para{
+    display:block;
+    margin-top: 0;
+    padding-top: 8%;
+    margin-right: auto;
+    margin-left: auto;
+    height: 200px;
+    width: 32%;
+    background-color: #F3F3F3;
+    margin-bottom: 1%;
+    padding-bottom: 5%;
+    box-shadow: 0 4px 2px -2px gray;
+}
+footer>p{
+    text-align: center;
+    height: 50px;
+    background-color: #00669F;
+    color:  white;
+    padding-top: 2%;
+    margin-top: 7%;
+}
+.para>p{
+    color: #333333;
+    padding-bottom: 5%;
+    padding: 1% 5% 10%;
+}
+.bttn{
+    width: 25%;
+    height: 20%;
+    background-color: #00669F;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    border-radius: 5%;
+    padding-top: 10px;
+    box-sizing:  border-box;
+}
+a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding-left: 23%;
+    display: relative;
+    padding-top: 5px;
+}
+span{
+    color:rgba(255,0,0,0.85);
+    font-size: 25px;
+    padding: 20px;
+}
